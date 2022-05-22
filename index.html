@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twnty</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="./fonts/TT Norms Pro/stylesheet.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container centered">
+        <a href="./index.html">
+          <svg class="logo">
+            <use href="./image/svg/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <nav class="nav">
+          <ul class="list">
+            <li class="list__item">
+              <a href="">Agency</a>
+            </li>
+            <li class="list__item"><a href="#about">Services</a></li>
+            <li class="list__item"><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="switch-lang">De/En</button>
+        </nav>
+        <button class="burger-btn" data-menu-open>
+          <svg class="burger-btn__icon">
+            <use href="./image/svg/sprite.svg#icon-menu-burger"></use>
+          </svg>
+        </button> 
+        <div class="mob-menu" data-menu>
+        <div class=" container">
+          <button class="mob-menu__close-button" type="button" data-menu-close>
+            <svg class="mob-menu__close-icon">
+              <use href="./image/svg/sprite.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <div class="centered">            
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item">
+                <a href="">Agency</a>
+              </li>
+              <li class="mobile-menu__item"><a href="#about" >Services</a></li>
+              <li class="mobile-menu__item"><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="switch-lang switch-lang__burger" >De/En</button>
+          </div>
+        </div>
+      </div>
+        
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__topic">
+            Digitales Corporate Marketing für Ihre Digital
+            revolution:Partner-schaftlich. Agil. Data-Driven
+          </h1>
+          <div class="description">
+            <p class="hero__paragraph">
+              TWNTY ist ihre digitale Full-Service-Unit. Wir agieren
+              ausschließlich mit datengestützten Maßnahmen – für den perfekten
+              Return-OF-Invest.
+            </p>
+            <a class="anchor" href="#about">
+              <svg class="scroll-arrow" width="30" height="80">
+                <use href="./image/svg/sprite.svg#icon-arrowdown"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <p class="about__paragraph">
+            Uns vertrauen namhafte Konzerne, zukunftsorientierte Startups,
+            mittelständische Unternehmen und bekannte Marken – gehören sie dazu!
+          </p>
+          <ul class="partners-list">
+            <li class="partners-list__item">
+              <a
+                class="partners-list__link"
+                href="https://www.tilray.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><img class="" src="./image/partners/tilray.png" alt="tilray"
+              /></a>
+            </li>
+            <li class="partners-list__item">
+              <a
+                class="partners-list__link"
+                href="https://www.apple.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><img class="" src="./image/partners/apple.png" alt="apple"
+              /></a>
+            </li>
+            <li class="partners-list__item">
+              <a
+                class="partners-list__link"
+                href="https://www.bauerfeind.com.ua/"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><img
+                  class=""
+                  src="./image/partners/bauerfeind.png"
+                  alt="bauerfeind"
+              /></a>
+            </li>
+            <li class="partners-list__item">
+              <a
+                class="partners-list__link"
+                href="https://www.subaru.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><img class="" src="./image/partners/subaru.png" alt="subaru"
+              /></a>
+            </li>
+            <li class="partners-list__item">
+              <a
+                class="partners-list__link"
+                href="https://bench.de/"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><img class="" src="./image/partners/bench.png" alt="bench"
+              /></a>
+            </li>
+            <li class="partners-list__item">
+              <a
+                class="partners-list__link"
+                href="https://www.audi.com/en.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><img class="" src="./image/partners/audi.png" alt="audi"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container group">
+          <div class="left-side">
+            <h2 class="contact-topic">
+              Kontakt
+              <br />
+              –let‘s talk
+            </h2>
+            <address class="address">
+              <ul class="address__list">
+                <li class="address__item">
+                  <a
+                    class="link address__geopos"
+                    href="https://goo.gl/maps/7n1Tg7MFpJwbPfrk7"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >TWNTY Digital GmbH
+                    <br />
+                    Pfaffendorfer Straße 26
+                    <br />
+                    04105 Leipzig/Germany</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a class="link address__tel" href="tel:+380991111111"
+                    >+49 (0)341 221 796 00</a
+                  >
+                  <a class="link address__email" href="mailto:info@example.com"
+                    >info@twnty.de</a
+                  >
+                </li>
+                <li class="address__item">
+                  <ul class="social">
+                    <li class="social__item">
+                      <a
+                        href="https://www.linkedin.com/company/twnty/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="social__link"
+                        >LinkedIn
+                      </a>
+                    </li>
+                    <li class="social__item">
+                      <a
+                        href="https://www.xing.com/pages/twntydigitalgmbh"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="social__link"
+                        >Xing</a
+                      >
+                    </li>
+                    <li class="social__item">
+                      <a
+                        href="https://www.instagram.com/hey_twnty/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="social__link"
+                        >Instagram
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <form class="modal-form form" action="#">
+            <div class="modal-form__infoblock modal-form__label--short-name">
+                <label class="modal-form__label " for="input-name"></label>
+                <input
+                  class="modal-form__input"
+                  type="text"
+                  name="name"
+                  id="input-name"
+                  minlength="2"
+                  pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                  title="Не должно быть цифр и символов"
+                  placeholder="Name"
+                  required
+                />
+            </div>
+            <div class="modal-form__infoblock modal-form__label--short-email">
+                <label class="modal-form__label " for="input-email"></label>
+                <input
+                  class="modal-form__input"
+                  type="email"
+                  name="email"
+                  id="input-email"
+                  placeholder="E-mail"
+                  required
+                />                  
+            </div>
+            <div class="modal-form__infoblock">
+              <label class="modal-form__label" for="input-tel"></label>
+              <input
+                class="modal-form__input"
+                type="tel"
+                name="tel"
+                id="input-tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="096-111-11-11"
+                placeholder="Betreff"
+                required
+                />
+              </div>
+              <div class="modal-form__infoblock">
+                <label class="modal-form__label" for="textarea-comment"></label>
+              <textarea
+              class="modal-form__comment"
+              name="comment"
+              id="textarea-comment"
+              placeholder="Nachricht"
+              ></textarea>
+            </div>
+            <div class="modal-form__policy-block">
+              <label class="modal-form__policy" for="checkbox-policy">
+                <input
+                class="modal-form__policy-checkbox  visually-hidden"
+                type="checkbox"
+                name="policy"
+                id="checkbox-policy"
+                required                  
+                />
+                <span aria-hidden="true" class="modal-form__policy-wrap">
+                  <svg
+                    class="modal-form__policy-icon"
+                    width="30px"
+                    height="30px"
+                  >
+                    <use href="./image/svg/sprite.svg#icon-check-mark"></use>
+                  </svg>
+                </span>
+                <span class="modal-form__policy-text"
+                  >Ich habe die
+                  <a class="modal-form__policy-link" href=""
+                    >Datenschutzbestimmungen</a
+                  >
+                  zur Kenntnis genommen.
+                </span>
+              </label>
+              <button class="modal__nutton" type="submit">Senden</button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container group">
+        <a href="./index.html">
+          <svg class="footer-logo">
+            <use href="./image/svg/sprite.svg#icon-footer-logo"></use>
+          </svg>
+        </a>
+        <div class="group foot-right-side">
+          <ul class="footer-menu group ">
+            <li>
+              <a href="">Impressum</a>
+            </li>
+            <li>
+            <a  href="">Datenschutz</a>
+          </li>
+        </ul>
+        <p class="copyright">© 2022</p>    
+      </div>
+      </div>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/form-send.js"></script>
+    <script src="./js/switchLanguage.js"></script>
+  </body>
+</html>
